@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-parcialbuenaspractic-dev-224039-authRole",
+      "UnauthRoleArn": "arn:aws:iam::902613960637:role/amplify-parcialbuenaspractic-dev-224039-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::902613960637:role/amplify-parcialbuenaspractic-dev-224039-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-parcialbuenaspractic-dev-224039-deployment",
+      "UnauthRoleName": "amplify-parcialbuenaspractic-dev-224039-unauthRole",
+      "StackName": "amplify-parcialbuenaspractic-dev-224039",
+      "StackId": "arn:aws:cloudformation:us-west-2:902613960637:stack/amplify-parcialbuenaspractic-dev-224039/a585b810-c512-11ec-b621-061f4b8a1ee7",
+      "AmplifyAppId": "d22xrpx5buia0o"
+    }
+  }
+}
