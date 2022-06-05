@@ -56,7 +56,7 @@ const Cards = () =>{
     }, []);
 
     return (
-    <div>
+    <div className="animate__animated animate__fadeInLeft">
         <div className="col-md-5 p-2">
             <CardsForm {...{addOrEdit, currentId, user}}/>
             

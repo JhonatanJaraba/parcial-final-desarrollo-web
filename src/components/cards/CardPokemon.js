@@ -14,7 +14,7 @@ export const CardPokemon = ({url}) => {
                 ?
                 <h1>Cargando</h1>
                 :
-                <div className='cards' style={{width:'14rem'}}>
+                <div className='cards' style={{width:'14rem', border: 'solid 1px'}}>
                     <div className='card-header'>
                         <h5 className="card-title">{data?.id}</h5>
                     </div>

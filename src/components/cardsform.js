@@ -36,7 +36,7 @@ const CardsForm = (props) =>{
     }, [props.currentId]);
 
     return (
-        <form className="card card-body" onSubmit={handleSubmit}>
+        <form className="card card-body animate__animated animate__fadeInLeft" onSubmit={handleSubmit}>
                 <br/>
             <div className="form-group input-group">
                 <div className="input-group-text bg-light">
