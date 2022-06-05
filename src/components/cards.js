@@ -78,7 +78,7 @@ const Cards = () =>{
                         <tbody>
                         {user.map(users => ( 
                             <tr key={users.id}>
-                            <td className="d-flex justify-content-evenly">
+                            <td className="d-flex justify-content-evenly imagen">
                                 <i className="material-icons text-danger lista" onClick={() => onDeleteUser(users.id)}>
                                     close
                                 </i>
