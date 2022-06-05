@@ -1,13 +1,10 @@
 import React, {useEffect, useState} from "react";
-import { UseFecth } from "./usefetch";
 import CardsForm from "./cardsform";
 import {firebase} from '../firebase';
 import { toast } from 'react-toastify';
 import Pokemon from "./pokemon";
 
 const Cards = () =>{
-
-    var name = null;
 
     const [user, setUser] = useState([]);
     const [currentId, setCurrentId] = useState('');
