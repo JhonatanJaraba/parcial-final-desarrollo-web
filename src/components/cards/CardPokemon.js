@@ -5,7 +5,7 @@ export const CardPokemon = ({url}) => {
 
     const estado = UseFecth(url)
     const {cargando, data} = estado
-
+//card pokemon
 
     return (
         <div>
